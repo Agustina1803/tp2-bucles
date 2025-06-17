@@ -1,4 +1,4 @@
-let numRepeticiones = parseInt(prompt(`Ingrese un numero del 1 al 30: `));
+const numRepeticiones = parseInt(prompt(`Ingrese un numero del 1 al 30: `));
 
 if(numRepeticiones >= 1 && numRepeticiones <= 30){
     for(let fila = 0; fila < numRepeticiones; fila++)

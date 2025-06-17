@@ -1,8 +1,8 @@
 let letra;
-let numero;
+
 
 do {
-  numero = parseInt(prompt(`Ingrese un numero de DNI: `));
+  const numero = parseInt(prompt(`Ingrese un numero de DNI: `));
 
   if (numero >= 0 && numero < 99999999) {
     let residuo = numero % 23;

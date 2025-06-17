@@ -1,8 +1,8 @@
 let suma = 0;
-let numero;
+
 
 do {
-  numero = parseInt(prompt(`Ingrese un numero: `));
+ const numero = parseInt(prompt(`Ingrese un numero: `));
 
   if (numero == numero) {
     suma = suma + numero;
