@@ -1,4 +1,4 @@
-let texto = prompt(`Ingrese un texto: `);
+const texto = prompt(`Ingrese un texto: `);
 let textoMayusculas = ``;
 
 for (let i=0; i< texto.length; i++){

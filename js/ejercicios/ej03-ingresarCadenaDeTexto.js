@@ -5,7 +5,7 @@ const guion = `-`;
 
 do{
     let frase = prompt(`Ingrese el texto: `);
-    
+
     cadenas += `${frase} ${guion}`;
 
 

@@ -1,5 +1,5 @@
 let texto = prompt(`Ingrese un texto: `);
-let textoGuion = ``;
+const textoGuion = ``;
 
 for (let i=0; i< texto.length; i++){
     textoGuion += texto[i];
