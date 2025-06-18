@@ -1,0 +1,14 @@
+table, td{
+    border: 1px solid red;
+}
+
+.table td{
+    height: auto;
+    width: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+body{
+    margin: 30px;
+}
